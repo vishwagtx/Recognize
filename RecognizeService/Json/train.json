@@ -1,0 +1,75 @@
+{
+  "models": [
+    {
+      "name": "national identity card",
+      "text": "national identity card",
+      "fields": [
+        {
+          "searchType": 0,
+          "name": "Number",
+          "mapingField": "Number",
+          "direction": 0,
+          "type": 0,
+          "y_possitionDiff": 50,
+          "x_possitionDiff": 0
+        },
+        {
+          "searchType": 0,
+          "name": "Name",
+          "mapingField": "Name",
+          "direction": 1,
+          "type": 0,
+          "y_possitionDiff": 100,
+          "x_possitionDiff": 50
+        },
+        {
+          "searchType": 0,
+          "name": "Sex",
+          "mapingField": "Sex",
+          "direction": 1,
+          "type": 0,
+          "y_possitionDiff": 50,
+          "x_possitionDiff": 50
+        },
+        {
+          "searchType": 0,
+          "name": "DOB",
+          "mapingField": "Date Of Birth",
+          "direction": 1,
+          "type": 1,
+          "paserFormat": "dd/MM/yyyy",
+          "y_possitionDiff": 50,
+          "x_possitionDiff": 100
+        },
+        {
+          "searchType": 0,
+          "name": "Address",
+          "mapingField": "Address",
+          "direction": 2,
+          "type": 2,
+          "y_possitionDiff": 300,
+          "x_possitionDiff": 100,
+          "noOfLines": 3
+        },
+        {
+          "searchType": 1,
+          "name": "Nationality",
+          "mapingFunction": "GetNationality",
+          "type": 0
+        }
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "name": "Sri Lanka",
+      "nationality": "Sri Lankan",
+      "keywords": [ "Sri Lanka", "SL", "SriLanka", "Ceylon" ]
+    },
+    {
+      "name": "Maldives",
+      "nationality": "Maldivian",
+      "keywords": [ "Maldives", "Maldivian" ]
+    }
+  ]
+}

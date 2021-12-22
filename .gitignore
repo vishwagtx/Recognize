@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RecognizeAssessment
+/RecognizeService/bin/Debug/net6.0
+/RecognizeService/obj
+/RecognizeService.Application/bin/Debug/net6.0
+/RecognizeService.Application/obj
+/RecognizeService.Domain/bin/Debug/net6.0
+/RecognizeService.Domain/obj
+/RecognizeService.Infrastructure/bin/Debug/net6.0
+/RecognizeService.Infrastructure/obj
